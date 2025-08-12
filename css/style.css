@@ -574,6 +574,10 @@ input::placeholder {
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
 }
 
 .footer-telegram-icon {
