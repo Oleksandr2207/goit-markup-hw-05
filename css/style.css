@@ -599,7 +599,6 @@ margin-left: 16px;
   height: 100%;
    display: flex;
   justify-content: center;
-  padding: 72px 24px 24px 24px;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -620,6 +619,7 @@ margin-left: 16px;
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
+
   overflow-y: auto;
   top: 50%;
   left: 50%;
@@ -687,7 +687,7 @@ margin-left: 16px;
   margin-bottom: 8px;
   margin-left: 24px;
   margin-right: 24px;
-}
+} 
 
 .href-policy {
    line-height: 16px; 
@@ -767,12 +767,10 @@ margin-left: 16px;
   border-color: #4D5AE5;
 }
 
-.modal-div-comment {
-  margin-bottom: 16px;
-}
-
 .modal-div-checkbox {
   margin-bottom: 24px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 
 .modal-checkbox-label {
@@ -809,7 +807,7 @@ margin-left: 16px;
   fill :#F4F4FD;
 }
 
-.svg-chechbox-span {
+.svg-checkbox-span {
   fill: #f4f4fd;
 }
 
